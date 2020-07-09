@@ -1,0 +1,11 @@
+[Unit]
+Description=primasaver_conection Service
+
+[Service]
+Type=simple
+ExecStart=/home/primasaver2/koneksi.sh
+SyslogIdentifier=primasaver_koneksi
+
+[Install]
+WantedBy=multi-user.target
+

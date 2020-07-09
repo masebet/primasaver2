@@ -1,0 +1,11 @@
+[Unit]
+Description=primasaver_conection Service
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/primasaver2/initAndRun
+SyslogIdentifier=primasaver_main
+
+[Install]
+WantedBy=multi-user.target
+
